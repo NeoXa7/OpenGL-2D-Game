@@ -3,12 +3,14 @@
 #include <string>
 #include "console/console.h"
 
+// idk why in the world i made this enum
 enum LOGGER_CODES : int {
 	L_ERROR = 404,
 	L_WARNING,
 	L_MESSAGE
 };
 
+// also the return types are preety useless
 namespace LOGGER {
 	template <typename... Args>
 	int Error(const char* error_from, const Args&... args) {
