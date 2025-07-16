@@ -4,7 +4,7 @@ Here's the things that i have made so far :
 - Texture Class
 - Sprite Renderer 
 - Entity Class
-- Renderer Class (Should NOT be called Exactly Renderer, after seeing your BLESSED videos)
+- Renderer Class 
 - GUI System (IMGUI XD)
   - BUTTONS
   - TEXT LABEL
