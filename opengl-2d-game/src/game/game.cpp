@@ -84,7 +84,7 @@ void Game::RestartGame() {
 
 void Game::Initialize() {
 	// shaders
-	ResourceManager::LoadShader("assets/shaders/sprite.vertex", "assets/shaders/sprite.frag", nullptr, SPRITE_SHADER);
+	ResourceManager::LoadShader("assets/shaders/sprite.vert", "assets/shaders/sprite.frag", nullptr, SPRITE_SHADER);
 
 	// textures
 	ResourceManager::LoadTexture("assets/textures/sky.jpg", BACKGROUND_TEXTURE, false);
@@ -199,7 +199,6 @@ void Game::Update()
 			this->m_LastScoreTime = current_time;
 		}
 
-		// gravity for the player entity (gravity lol)
 		m_Player->Velocity.y += this->m_Gravity * m_Renderer->GetDeltaTime();
 		m_Player->Position.y += m_Player->Velocity.y * m_Renderer->GetDeltaTime();
 		m_Player->Rotation += m_Player->Velocity.y * m_Renderer->GetDeltaTime();
