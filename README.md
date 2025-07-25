@@ -17,4 +17,5 @@ Here's the things that i have made so far :
    - Get the Texture from ANYWHERE by specifying the name of the texture
 
 IMAGE : 
-<img width="1920" height="1080" alt="Screenshot (364)" src="https://github.com/user-attachments/assets/ff8d01f2-f23c-41a2-876a-bef7c9538cf3" />
+<img width="1600" height="900" alt="Screenshot (364)" src="https://github.com/user-attachments/assets/ff8d01f2-f23c-41a2-876a-bef7c9538cf3" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/34d0c6fd-c832-4092-bf57-05a8bbaa7e63" />
