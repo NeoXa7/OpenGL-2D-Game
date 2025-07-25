@@ -21,7 +21,7 @@ namespace Renderer {
 		glfwInit();
 		glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 		glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-		glfwWindowHint(GLFW_RESIZABLE, FALSE);
+		glfwWindowHint(GLFW_RESIZABLE, TRUE);
 		glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 		this->window_context = glfwCreateWindow(this->width, this->height, this->title, nullptr, nullptr);
